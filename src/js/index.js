@@ -18,7 +18,7 @@ botaoAlterar.addEventListener("click", () => {
 
     main.classList.remove("modo-escuro");
 
-    luaSol.setAttribute("src", "./src/images/sun.png");
+    luaSol.setAttribute("src", "./src/Images/sun.png");
   } else {
     body.classList.add("modo-escuro");
 
@@ -26,6 +26,6 @@ botaoAlterar.addEventListener("click", () => {
 
     main.classList.add("modo-escuro");
 
-    luaSol.setAttribute("src", "./src/images/moon.png");
+    luaSol.setAttribute("src", "./src/Images/moon.png");
   }
 });
